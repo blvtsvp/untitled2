@@ -9,8 +9,8 @@ public class Main {
         int a = in.nextInt();
         int b = in.nextInt();
         int c = in.nextInt();
-        int z = 0;
-	System.out.println("Hello, world");
+        int z = ((a-3)*b/2)+c;
+	System.out.println("Result is " + z);
 
     }
 }
